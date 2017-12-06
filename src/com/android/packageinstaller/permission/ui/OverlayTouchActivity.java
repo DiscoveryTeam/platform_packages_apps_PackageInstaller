@@ -21,6 +21,7 @@ import android.app.Activity;
 import android.os.Bundle;
 
 public class OverlayTouchActivity extends Activity {
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().addPrivateFlags(PRIVATE_FLAG_HIDE_NON_SYSTEM_OVERLAY_WINDOWS);
         super.onCreate(savedInstanceState);
